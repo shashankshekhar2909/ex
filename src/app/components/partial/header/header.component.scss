@@ -1,0 +1,20 @@
+
+.preNav{
+  height: 40px;
+  background-color: #001 !important;
+}
+.navbar, .container{
+  padding: 0px;
+  background-color: #000 !important;
+  a:hover{
+    color: rgb(182, 155, 1);
+    background-color: transparent;
+  }
+}
+.logo{
+  max-height: 5vh;
+}
+.dropdown-item{
+  cursor: pointer;
+  color: #fff;
+}

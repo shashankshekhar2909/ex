@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+
+body {
+  background-color: #302e2e;
+  color: #d4d4d4;
+}
+
+.btn-primary {
+  background-color: #FFD700;
+  border-color: #FFD700;
+  color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #FFC700;
+  border-color: #FFC700;
+}
+
+.text-center {
+  // color: #FFD700;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+/* Custom styles for other Bootstrap components as needed */
+.navbar, .card {
+  background-color: #000000;
+  color: #FFD700;
+}
+
+.card-header, .card-body {
+  background-color: #000000;
+  color: #FFD700;
+}
+
+.container-xxl{
+  margin: 10vh 0vh;
+}

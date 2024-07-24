@@ -1,0 +1,113 @@
+.ezy__contact14 {
+    height: 100vh;
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__contact14 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__contact14,
+.ezy__contact14.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__contact14,
+.ezy__contact14.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__contact14,
+.ezy__contact14.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__contact14-heading {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 45px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__contact14-heading {
+		font-size: 55px;
+		line-height: 70px;
+	}
+}
+
+.ezy__contact14-sub-heading {
+	font-size: 14px;
+	line-height: 28px;
+	color: var(--bs-body-color);
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	opacity: 0.9;
+}
+
+.ezy__contact14 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	border-bottom: 2px solid rgba(163, 190, 241, 0.24);
+	background: transparent;
+	border-radius: 0;
+	color: var(--bs-body-color);
+}
+
+.ezy__contact14 .form-control:focus {
+	border-bottom-color: var(--ezy-theme-color);
+	box-shadow: none;
+}
+
+.ezy__contact14 .btn-outline-light {
+	color: var(--bs-body-color);
+	border-color: rgba(163, 190, 241, 0.24);
+	padding: 12px 20px;
+}
+
+.ezy__contact14 .btn-outline-light:hover {
+	color: var(--bs-body-bg);
+	background-color: var(--bs-body-color);
+}
+
+.ezy__contact14-contact-icon {
+	font-size: 70px;
+	color: var(--bs-body-color);
+	opacity: 0.15;
+	width: 80px;
+	text-align: center;
+}
+
+.ezy__contact14-contact-details {
+	margin-left: -26px;
+}
+
+.ezy__contact14-contact-details p,
+.ezy__contact14-contact-details a {
+	color: var(--bs-body-color);
+	text-decoration: none;
+	letter-spacing: 2px;
+}

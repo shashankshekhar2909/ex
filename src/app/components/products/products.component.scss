@@ -1,0 +1,33 @@
+.detailsContainer{
+  // background-color: black;
+  color: #fff;
+  .details{
+    min-height: 75vh;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.leftList{
+  list-style: none;
+  padding: 0;
+  li{
+    // border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    .image{
+      width: 100%;
+    }
+    .title{
+      // background-color: black;
+      color: #fff;
+    }
+    .description{
+      text-align: justify;
+    }
+  }
+}
+.header{
+  text-align: center;
+}
