@@ -353,3 +353,15 @@
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
 }
+.contact{
+  .column{
+    background-color: #0A0A0A;
+    padding: 40px 30px;
+    margin: 30px;
+    color: #fff;
+    min-height: 15vh;
+    i{
+      font-size: 20px;
+    }
+  }
+}

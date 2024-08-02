@@ -51,3 +51,4 @@ export class HeaderComponent {
     this.router.navigate(['product',item.id])
   }
 }
+// emailjs.sendForm('service_eeytdhu', 'template_c52th8r', formElement, '0a0Gq8xnkjeFuWXhS')
