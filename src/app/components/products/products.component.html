@@ -1,36 +1,37 @@
-<section style="background-color: rgb(42, 41, 41);">
-  <div class="container" *ngIf="selectedProduct[0]">
-    <div class="detailsContainer">
+<section class="ezy__epgrid8 dark">
+  <div class="container">
+    <div class="row ezy__epgrid8-row text-center justify-content-start">
       <div class="header">
         <h2>{{selectedProduct[0].title}}</h2>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <ul class="leftList row">
-              <li class="col-lg-4 col-sm-12" *ngFor="let item of selectedProduct[0].details">
-                <div class="column details">
-                  <div class="">
-                    <img class="image" src="{{item.imageUrl}}" alt="">
-                  </div>
-                  <div class="">
-                    <div>
-                      <div class="title">
-                        <h2>{{item.name}}</h2>
-                      </div>    
-                      <div class="description">
-                        {{item.description}}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
+      <!-- card start -->
+      <div class="col-12 col-md-6 col-xl-4"  *ngFor="let item of selectedProduct[0].details">
+        <div class="card ezy__epgrid8-card">
+          <div class="position-relative">
+            <!-- img starts -->
+            <a href="#">
+              <img
+                src="{{item.imageUrl}}"
+                class="w-100 ezy__epgrid8-img"
+              />
+            </a>
+          </div>
+          <!-- card-body -->
+          <div class="card-body text-start">
+            <!-- title -->
+            <a href="#">
+              <h5 class="ezy__epgrid8-title mb-1">{{item.name}}</h5>
+            </a>
+            <!-- details -->
+            <div class="ezy__epgrid8-details">
+              <h6 class="ezy__epgrid8-shipping mb-1">
+                {{item.description}}
+              </h6>
+            </div>
           </div>
         </div>
       </div>
-
+      <!-- card end -->
     </div>
   </div>
-
 </section>
