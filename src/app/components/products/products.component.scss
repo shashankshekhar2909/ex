@@ -23,7 +23,7 @@
 
 @media (min-width: 768px) {
   .ezy__epgrid8 {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 
@@ -40,10 +40,10 @@
 .ezy__epgrid8.dark-gray {
   /* Bootstrap variables */
   --bs-body-color: #ffffff;
-  --bs-body-bg: rgb(30, 39, 53);
+  --ezy-card-border: rgb(0, 0, 0) !important;
 
   /* Easy Frontend variables */
-  --ezy-card-border: rgb(51, 61, 79);
+  --ezy-card-border: rgb(0, 0, 0);
 }
 
 /* Dark Block Style */
@@ -54,7 +54,8 @@
   --bs-body-bg: rgb(11, 23, 39);
 
   /* Easy Frontend variables */
-  --ezy-card-border: rgb(30, 39, 53);
+  --ezy-card-border: rgb(84, 84, 84);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .ezy__epgrid8-row {
