@@ -11,4 +11,7 @@ export class HomeComponent {
   openFruit(id:any){
     this.router.navigate(['product',id])
   }
+  openContact(){
+    this.router.navigate(['enquiry'])
+  }
 }
