@@ -55,7 +55,7 @@ export class ContactComponent implements OnInit {
       // Clear the form and show the alert after successful submission
       this.contactForm.reset();
       this.emailSent = true;
-
+      
       // Hide the alert after a few seconds
       setTimeout(() => {
         this.emailSent = false;

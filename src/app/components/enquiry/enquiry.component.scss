@@ -111,3 +111,13 @@ color: var(--bs-body-color);
 text-decoration: none;
 letter-spacing: 2px;
 }
+
+.dark-select {
+  background-color: rgb(11, 23, 39) !important;
+  color: #fff !important;
+}
+
+.dark-select option {
+  background-color: rgb(11, 23, 39) !important;
+  color: #fff;
+}
